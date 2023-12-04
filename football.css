@@ -1,0 +1,129 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-color: #5f5e63;
+  color: white;
+}
+
+nav {
+  background-color: #343434;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+nav a:hover {
+  font-size: 220%;
+  transition-duration: 500ms;
+  background-color: #ddd;
+  color: #5f5e78;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-align: center;
+  padding: 2% 3%;
+  text-decoration: none;
+  font-size: 2vw;
+  color: #ddd;
+}
+
+header {
+  background-color: #5f5e63;
+  font-size: 3.5vw;
+  text-align: center;
+  background-image: url("bolt.jpg");
+  background-size: cover;
+  background-position: center;
+  line-height: 4;
+  padding: 1%;
+  margin-top: 20%;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h3 {
+  font-size: 2.5vw;
+}
+
+p {
+  font-size: 2vw;
+}
+.image-container img {
+  max-width: 30%;
+  height: auto;
+  filter: grayscale(0%);
+  border: 3px solid #fff;
+}
+.image-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.top {
+  background-color: #3d3b3b;
+  padding: 2% 0 10%;
+  text-align: center;
+}
+#threesum,
+#speedhead,
+#strengthhead,
+#explosivehead {
+  background-color: #3d3b3b;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 2%;
+  text-align: center;
+  font-size: 2.25vw;
+  border: 3px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+#speedtop,
+#strengthtop,
+#explosivetop {
+  text-align: center;
+  padding-top: 2%;
+}
+.speedsection,
+.strengthsection,
+#explosivehead {
+  background-color: #323131;
+}
+#speedhead img,
+#strengthhead img,
+#explosivehead img {
+  max-width: 30%;
+  height: auto;
+  filter: grayscale(0%);
+  border: 3px solid #fff;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+.speed-image-grid,
+.strength-image-grid,
+.explosive-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.image {
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

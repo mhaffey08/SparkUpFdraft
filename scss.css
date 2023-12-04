@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-family: Helvetica;
+}
+header {
+  background-image: url(stars.jpg);
+  color: white;
+  text-align: center;
+  padding-top: 1px;
+  font-size: xx-large;
+  padding-bottom: 20px;
+}
+nav {
+  padding: 150px;
+  width: 15%;
+  height: 90%;
+  display: inline-flex;
+  background-color: rgb(56, 125, 126);
+}
+nav ul {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  transform: translateY(-100px) translateX(-175px);
+  float: left;
+}
+nav a {
+  color: white;
+  text-decoration: white;
+  list-style-type: none;
+}
+li:hover {
+  background-color: rgb(53, 49, 101);
+}
+footer {
+  background-color: #00017d;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  position: fixed;
+  justify-content: center;
+  bottom: 52px;
+  width: 100%;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  transform: translateY(52px);
+}
+.table {
+  float: left;
+  background-color: rgb(173, 209, 223);
+  width: 100%;
+}
+.most {
+  width: 100%;
+  padding: 0px;
+  padding-bottom: 16px;
+  bottom: 52px;
+  position: absolute;
+}
+#text {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+#one {
+  margin-right: 0;
+  margin-left: 0px;
+}
+.themeat {
+  transform: translateY(-400px);
+}
+.tree {
+  transform: translateY(-500px);
+}
+article {
+  transform: translateY(-70px);
+  margin-right: -26px;
+  float: right;
+  margin-top: -340px;
+  padding: 20px;
+  width: 64%;
+  height: 300px;
+  font-size: 15px;
+}
+h1 {
+  font-size: xx-large;
+  transform: translateY(800px);
+  color: black;
+}

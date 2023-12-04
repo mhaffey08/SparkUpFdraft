@@ -1,0 +1,122 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-color: #5f5e63;
+  color: white;
+}
+
+nav {
+  background-color: #343434;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+nav a:hover {
+  font-size: 220%;
+  transition-duration: 500ms;
+  background-color: #ddd;
+  color: #5f5e78;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-align: center;
+  padding: 2% 3%;
+  text-decoration: none;
+  font-size: 2vw;
+  color: #ddd;
+}
+
+header {
+  background-color: #5f5e63;
+  font-size: 3.5vw;
+  text-align: center;
+  background-image: url("bolt.jpg");
+  background-size: cover;
+  background-position: center;
+  line-height: 4;
+  padding: 5%;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form select,
+*/ .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"] {
+  background-color: chartreuse;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #353131;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.top {
+  text-align: center;
+}
+.contact-form label {
+  color: black;
+}
